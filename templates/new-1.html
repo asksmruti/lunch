@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <style>
+      .colored {
+        color: blue;
+      }
+      #body {
+        font-size: 14px;
+      }
+      @media screen and (min-width: 500px) {
+        .colored {
+          color:red;
+        }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  font-size: 17px;
+}
+
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  /*bottom: 0;*/
+  top: 30%;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+</style>
+      }
+    </style>
+  </head>
+  <body>
+ <div class="container">
+  <img src="https://images.unsplash.com/photo-1469307580733-007134b82100?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60" alt="Notebook" style="width:100%;">
+  <div class="content">
+    <h1>Heading</h1>
+    <p>How guys, how are you? </p>
+  </div>
+
+  </div>
+  </body>
+</html>

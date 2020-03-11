@@ -1,0 +1,108 @@
+    <!DOCTYPE html>
+<html style="box-sizing: border-box;">
+<head style="box-sizing: border-box;">
+<meta name="viewport" content="width=device-width, initial-scale=1" style="box-sizing: border-box;">
+<style style="box-sizing: border-box;">
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  font-size: 17px;
+}
+
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  /*bottom: 0;*/
+  top: 30%;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+</style>
+</head>
+<body style="box-sizing: border-box;font-family: Arial;font-size: 17px;">
+
+<!-- <h2 style="box-sizing: border-box;">Responsive Image with Transparent Text</h2> -->
+
+<div class="container" style="box-sizing: border-box;position: relative;max-width: 800px;margin: 0 auto;">
+  <div class="content" style="box-sizing: border-box;position: absolute;top: 30%;background: rgba(0, 0, 0, 0.5);color: #f1f1f1;width: 100%;padding: 20px;">
+    <h1 style="box-sizing: border-box;">Heading</h1>
+    <p style="box-sizing: border-box;">How guys, how are you? </p>
+  <img src="https://images.unsplash.com/photo-1490990813269-10586274747f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2113&q=80" alt="Notebook" style="width: 100%;box-sizing: border-box;vertical-align: middle;">
+  </div>
+
+  </div>
+
+
+</body>
+</html>
+----------------------------
+
+Non CSI
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  font-size: 17px;
+}
+
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  /*bottom: 0;*/
+  top: 30%;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+</style>
+</head>
+<body>
+
+<h2>Responsive Image with Transparent Text</h2>
+
+<div class="container">
+  <img src="https://images.unsplash.com/photo-1469307580733-007134b82100?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60" alt="Notebook" style="width:100%;">
+  <div class="content">
+    <h1>Heading</h1>
+    <p>How guys, how are you? </p>
+  </div>
+
+  </div>
+</div>
+
+</body>
+</html>
